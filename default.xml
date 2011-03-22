@@ -3,8 +3,10 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="refs/tags/android-2.3.3_r1a"
-           remote="korg" />
+  <remote  name="mipsea"
+           fetch="git@mipsandroid.com:mipsandroid" />
+  <default revision="mips-gingerbread-r1"
+           remote="mipsea" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
