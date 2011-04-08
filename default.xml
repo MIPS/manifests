@@ -23,6 +23,7 @@
   <project path="external/fdlibm" name="external-fdlibm" remote="mips"/>
   <project path="external/icu4c" name="external-icu4c" remote="mips"/>
   <project path="external/libffi" name="external-libffi" remote="mips"/>
+  <project path="external/libnfc-nxp" name="external-libnfc-nxp" remote="mips"/>
   <project path="external/openssl" name="external-openssl" remote="mips"/>
   <project path="external/oprofile" name="external-oprofile" remote="mips"/>
   <project path="external/ppp" name="external-ppp" remote="mips"/>
@@ -46,6 +47,7 @@
   <project path="sdk" name="sdk" remote="mips"/>
   <project path="system/core" name="system-core" remote="mips"/>
   <project path="system/extras" name="system-extras" remote="mips"/>
+  <project path="system/media" name="system-media" remote="mips"/>
 
 <!--Repositories obtained from Google -->
 
@@ -96,7 +98,6 @@
   <project path="external/junit" name="platform/external/junit" revision="e9b8080d6d80d17729e0b7f8b1d2b573b3456cc4"/>
   <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="4879d6a8f2cd33b6b725666bc8f5b48f007db2a6"/>
   <project path="external/libgsm" name="platform/external/libgsm" revision="5e4516958690b9a1b2c98f88eeecba3edd2dbda4"/>
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="34740d47dde496bf46cfd054be1356db0f3d5921"/>
   <project path="external/libpcap" name="platform/external/libpcap" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a"/>
   <project path="external/libpng" name="platform/external/libpng" revision="4ce0ee15f268e0161438b4133936cb2826f7fd50"/>
   <project path="external/libvpx" name="platform/external/libvpx" revision="76e0247ec867fcc232fc79f21e9bf85d3c3a5a3f"/>
@@ -176,7 +177,6 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="4cb26a827ca03cad77522862cc78248e052ea0ca"/>
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="5990d2459017ab3a404e774115ebcc2c414e3136"/>
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="7dc550597f490a67c8d020c727bfbf2d9d212d42"/>
-  <project path="system/media" name="platform/system/media" revision="e024d768fa2563ce3d7236333917f2d6c3c59f08"/>
   <project path="system/netd" name="platform/system/netd" revision="e7732280e7af281d35f90d7794a31a7f6e10f185"/>
   <project path="system/vold" name="platform/system/vold" revision="a28056b38275003895ff5d9576681aca01544822"/>
   <project path="system/wlan/ti" name="platform/system/wlan/ti" revision="3baca6cc248e0d9a852c25b214c92bc856ae03ea"/>
