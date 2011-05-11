@@ -5,7 +5,7 @@
            review="review.source.android.com" />
   <remote  name="mips"
            fetch="git://github.com/MIPS/" />
-  <default revision="mips-froyo"
+  <default revision="refs/tags/mips-froyo-r5"
            remote="korg" />
 
 <!-- MIPS Specific Repositories -->
