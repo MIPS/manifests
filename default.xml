@@ -24,6 +24,7 @@
   <project path="external/icu4c" name="external-icu4c" remote="mips"/>
   <project path="external/libffi" name="external-libffi" remote="mips"/>
   <project path="external/libnfc-nxp" name="external-libnfc-nxp" remote="mips"/>
+  <project path="external/libvpx" name="external-libvpx" remote="mips"/>
   <project path="external/openssl" name="external-openssl" remote="mips"/>
   <project path="external/oprofile" name="external-oprofile" remote="mips"/>
   <project path="external/ppp" name="external-ppp" remote="mips"/>
@@ -100,7 +101,6 @@
   <project path="external/libgsm" name="platform/external/libgsm" revision="5e4516958690b9a1b2c98f88eeecba3edd2dbda4"/>
   <project path="external/libpcap" name="platform/external/libpcap" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a"/>
   <project path="external/libpng" name="platform/external/libpng" revision="4ce0ee15f268e0161438b4133936cb2826f7fd50"/>
-  <project path="external/libvpx" name="platform/external/libvpx" revision="85e5eb6cb33b38b87043a4cba913cac53eed60d5"/>
   <project path="external/libxml2" name="platform/external/libxml2" revision="f16b5fdc2102953f6b915472200061e17e76702b"/>
   <project path="external/mtpd" name="platform/external/mtpd" revision="fccbc17685cd8bd43cf1c1e533c4d02f6f79d667"/>
   <project path="external/netcat" name="platform/external/netcat" revision="fc2dc55c510657073ef4235658167a878e82cefa"/>
