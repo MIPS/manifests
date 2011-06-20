@@ -35,6 +35,7 @@
   <project path="external/srec" name="external-srec" remote="mips"/>
   <project path="external/stlport" name="external-stlport" remote="mips"/>
   <project path="external/strace" name="external-strace" remote="mips"/>
+  <project path="external/svox" name="external-svox" remote="mips"/>
   <project path="external/tremolo" name="external-tremolo" remote="mips"/>
   <project path="external/v8" name="external-v8" remote="mips"/>
   <project path="external/webkit" name="external-webkit" remote="mips"/>
@@ -114,7 +115,6 @@
   <project path="external/quake" name="platform/external/quake" revision="9b0abf864353d47404417c1cbd8384e15be547b0"/>
   <project path="external/safe-iop" name="platform/external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
   <project path="external/speex" name="platform/external/speex" revision="32e4d0aa78c5879565cbcd06415fa2e344036ab5"/>
-  <project path="external/svox" name="platform/external/svox" revision="a3452812129e912d6dbf5fda3d69e31b622c0be3"/>
   <project path="external/tagsoup" name="platform/external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="532b8f38c144da9a298260a5d8978ab9e8e3856c"/>
   <project path="external/tinyxml" name="platform/external/tinyxml" revision="d589f7e4a51e75bd5c98a3defd8ee84d7059e86e"/>
