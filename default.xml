@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
+           fetch="git://public.mipsandroid.com/mips/"
            review="review.source.android.com" />
   <remote  name="mips"
            fetch="git://github.com/MIPS/" />
