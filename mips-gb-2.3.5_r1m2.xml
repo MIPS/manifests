@@ -5,7 +5,7 @@
            review="review.source.android.com" />
   <remote  name="mips"
            fetch="git://github.com/MIPS/" />
-  <default revision="mips-gb-2.3.5"
+  <default revision="refs/tags/mips-gb-2.3.5_r1m2"
            remote="mips" />
 
   <project path="build" name="build">
