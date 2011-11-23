@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="korg"
+           fetch="git://android.git.kernel.org/"
+           review="review.source.android.com" />
+  <remote  name="mips"
+           fetch="git://github.com/MIPS/" />
+  <default revision="refs/tags/mips-froyo-r9"
+           remote="mips" />
+
+  <project path="build" name="build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="bionic" name="bionic" />
+
+  <project path="bootable/bootloader/legacy" name="bootable-bootloader-legacy" />
+  <project path="bootable/diskinstaller" name="bootable-diskinstaller" />
+  <project path="bootable/recovery" name="bootable-recovery" />
+
+  <project path="cts" name="cts" />
+  <project path="dalvik" name="dalvik" />
+  <project path="development" name="development" />
+
+  <project path="device/common" name="device-common" />
+  <project path="device/sample" name="device-sample" />
+
+  <project path="external/apache-http" name="external-apache-http" />
+  <project path="external/astl" name="external-astl" />
+  <project path="external/bison" name="external-bison" />
+  <project path="external/blktrace" name="external-blktrace" />
+  <project path="external/bluetooth/bluez" name="external-bluetooth-bluez" />
+  <project path="external/bluetooth/glib" name="external-bluetooth-glib" />
+  <project path="external/bluetooth/hcidump" name="external-bluetooth-hcidump" />
+  <project path="external/bsdiff" name="external-bsdiff" />
+  <project path="external/bzip2" name="external-bzip2" />
+  <project path="external/clearsilver" name="external-clearsilver" />
+  <project path="external/dbus" name="external-dbus" />
+  <project path="external/dhcpcd" name="external-dhcpcd" />
+  <project path="external/dnsmasq" name="external-dnsmasq" />
+  <project path="external/dropbear" name="external-dropbear" />
+  <project path="external/e2fsprogs" name="external-e2fsprogs" />
+  <project path="external/easymock" name="external-easymock" />
+  <project path="external/elfcopy" name="external-elfcopy" />
+  <project path="external/elfutils" name="external-elfutils" />
+  <project path="external/embunit" name="external-embunit" />
+  <project path="external/emma" name="external-emma" />
+  <project path="external/esd" name="external-esd" />
+  <project path="external/expat" name="external-expat" />
+  <project path="external/fdlibm" name="external-fdlibm" />
+  <project path="external/freetype" name="external-freetype" />
+  <project path="external/fsck_msdos" name="external-fsck_msdos" />
+  <project path="external/genext2fs" name="external-genext2fs" />
+  <project path="external/giflib" name="external-giflib" />
+  <project path="external/grub" name="external-grub" />
+  <project path="external/gtest" name="external-gtest" />
+  <project path="external/guava" name="external-guava" />
+  <project path="external/icu4c" name="external-icu4c" />
+  <project path="external/iproute2" name="external-iproute2" />
+  <project path="external/ipsec-tools" name="external-ipsec-tools" />
+  <project path="external/iptables" name="external-iptables" />
+  <project path="external/jdiff" name="external-jdiff" />
+  <project path="external/jhead" name="external-jhead" />
+  <project path="external/jpeg" name="external-jpeg" />
+  <project path="external/jsr305" name="external-jsr305" />
+  <project path="external/junit" name="external-junit" />
+  <project path="external/kernel-headers" name="external-kernel-headers" />
+  <project path="external/libffi" name="external-libffi" />
+  <project path="external/libpcap" name="external-libpcap" />
+  <project path="external/libpng" name="external-libpng" />
+  <project path="external/libxml2" name="external-libxml2" />
+  <project path="external/mtpd" name="external-mtpd" />
+  <project path="external/netcat" name="external-netcat" />
+  <project path="external/netperf" name="external-netperf" />
+  <project path="external/neven" name="external-neven" />
+  <project path="external/opencore" name="external-opencore" />
+  <project path="external/openssl" name="external-openssl" />
+  <project path="external/oprofile" name="external-oprofile" />
+  <project path="external/ping" name="external-ping" />
+  <project path="external/ppp" name="external-ppp" />
+  <project path="external/proguard" name="external-proguard" />
+  <project path="external/qemu" name="external-qemu" />
+  <project path="external/quake" name="external-quake" />
+  <project path="external/safe-iop" name="external-safe-iop" />
+  <project path="external/skia" name="external-skia" />
+  <project path="external/sonivox" name="external-sonivox" />
+  <project path="external/speex" name="external-speex" />
+  <project path="external/sqlite" name="external-sqlite" />
+  <project path="external/srec" name="external-srec" />
+  <project path="external/stlport" name="external-stlport" />
+  <project path="external/strace" name="external-strace" />
+  <project path="external/svox" name="external-svox" />
+  <project path="external/tagsoup" name="external-tagsoup" />
+  <project path="external/tcpdump" name="external-tcpdump" />
+  <project path="external/tinyxml" name="external-tinyxml" />
+  <project path="external/tremolo" name="external-tremolo" />
+  <project path="external/v8" name="external-v8" />
+  <project path="external/webkit" name="external-webkit" />
+  <project path="external/wpa_supplicant" name="external-wpa_supplicant" />
+  <project path="external/wpa_supplicant_6" name="external-wpa_supplicant_6" />
+  <project path="external/xmlwriter" name="external-xmlwriter" />
+  <project path="external/yaffs2" name="external-yaffs2" />
+  <project path="external/zlib" name="external-zlib" />
+
+  <project path="frameworks/base" name="frameworks-base" />
+  <project path="frameworks/ex" name="frameworks-ex" />
+  <project path="frameworks/opt/emoji" name="frameworks-opt-emoji" />
+  <project path="frameworks/policies/base" name="frameworks-policies-base" />
+
+  <project path="hardware/broadcom/wlan" name="hardware-broadcom-wlan" />
+  <project path="hardware/libhardware" name="hardware-libhardware" />
+  <project path="hardware/libhardware_legacy" name="hardware-libhardware_legacy" />
+  <project path="hardware/msm7k" name="hardware-msm7k" />
+  <project path="hardware/qcom/gps" name="hardware-qcom-gps" />
+  <project path="hardware/ril" name="hardware-ril" />
+  <project path="hardware/ti/omap3" name="hardware-ti-omap3" />
+  <project path="hardware/ti/wlan" name="hardware-ti-wlan" />
+
+  <project path="ndk" name="ndk" />
+
+  <project path="packages/apps/AccountsAndSyncSettings" name="packages-apps-AccountsAndSyncSettings" />
+  <project path="packages/apps/AlarmClock" name="packages-apps-AlarmClock" />
+  <project path="packages/apps/Bluetooth" name="packages-apps-Bluetooth" />
+  <project path="packages/apps/Browser" name="packages-apps-Browser" />
+  <project path="packages/apps/Calculator" name="packages-apps-Calculator" />
+  <project path="packages/apps/Calendar" name="packages-apps-Calendar" />
+  <project path="packages/apps/Camera" name="packages-apps-Camera" />
+  <project path="packages/apps/CertInstaller" name="packages-apps-CertInstaller" />
+  <project path="packages/apps/Contacts" name="packages-apps-Contacts" />
+  <project path="packages/apps/DeskClock" name="packages-apps-DeskClock" />
+  <project path="packages/apps/Email" name="packages-apps-Email" />
+  <project path="packages/apps/Gallery" name="packages-apps-Gallery" />
+  <project path="packages/apps/Gallery3D" name="packages-apps-Gallery3D" />
+  <project path="packages/apps/HTMLViewer" name="packages-apps-HTMLViewer" />
+  <project path="packages/apps/IM" name="packages-apps-IM" />
+  <project path="packages/apps/Launcher2" name="packages-apps-Launcher2" />
+  <project path="packages/apps/Mms" name="packages-apps-Mms" />
+  <project path="packages/apps/Music" name="packages-apps-Music" />
+  <project path="packages/apps/PackageInstaller" name="packages-apps-PackageInstaller" />
+  <project path="packages/apps/Phone" name="packages-apps-Phone" />
+  <project path="packages/apps/Protips" name="packages-apps-Protips" />
+  <project path="packages/apps/Provision" name="packages-apps-Provision" />
+  <project path="packages/apps/QuickSearchBox" name="packages-apps-QuickSearchBox" />
+  <project path="packages/apps/Settings" name="packages-apps-Settings" />
+  <project path="packages/apps/SoundRecorder" name="packages-apps-SoundRecorder" />
+  <project path="packages/apps/SpeechRecorder" name="packages-apps-SpeechRecorder" />
+  <project path="packages/apps/Stk" name="packages-apps-Stk" />
+  <project path="packages/apps/VoiceDialer" name="packages-apps-VoiceDialer" />
+  <project path="packages/experimental" name="packages-experimental" />
+  <project path="packages/inputmethods/LatinIME" name="packages-inputmethods-LatinIME" />
+  <project path="packages/inputmethods/OpenWnn" name="packages-inputmethods-OpenWnn" />
+  <project path="packages/inputmethods/PinyinIME" name="packages-inputmethods-PinyinIME" />
+  <project path="packages/providers/ApplicationsProvider" name="packages-providers-ApplicationsProvider" />
+  <project path="packages/providers/CalendarProvider" name="packages-providers-CalendarProvider" />
+  <project path="packages/providers/ContactsProvider" name="packages-providers-ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="packages-providers-DownloadProvider" />
+  <project path="packages/providers/DrmProvider" name="packages-providers-DrmProvider" />
+  <project path="packages/providers/GoogleContactsProvider" name="packages-providers-GoogleContactsProvider" />
+  <project path="packages/providers/MediaProvider" name="packages-providers-MediaProvider" />
+  <project path="packages/providers/TelephonyProvider" name="packages-providers-TelephonyProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="packages-providers-UserDictionaryProvider" />
+  <project path="packages/wallpapers/Basic" name="packages-wallpapers-Basic" />
+  <project path="packages/wallpapers/LivePicker" name="packages-wallpapers-LivePicker" />
+  <project path="packages/wallpapers/MagicSmoke" name="packages-wallpapers-MagicSmoke" />
+  <project path="packages/wallpapers/MusicVisualization" name="packages-wallpapers-MusicVisualization" />
+
+  <project path="prebuilt" name="prebuilt" />
+  <project path="sdk" name="sdk" />
+  <project path="system/bluetooth" name="system-bluetooth" />
+  <project path="system/core" name="system-core" />
+  <project path="system/extras" name="system-extras" />
+  <project path="system/netd" name="system-netd" />
+  <project path="system/vold" name="system-vold" />
+  <project path="system/wlan/ti" name="system-wlan-ti" />
+
+</manifest>
