@@ -5,7 +5,7 @@
            review="review.source.android.com" />
   <remote  name="mips"
            fetch="git://github.com/MIPS/" />
-  <default revision="refs/tags/mips-froyo-r8"
+  <default revision="refs/tags/mips-froyo-r9"
            remote="mips" />
 
   <project path="build" name="build">
