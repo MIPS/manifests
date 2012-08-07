@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="mips"
            fetch="git://github.com/MIPS" />
-  <default revision="dev-mips-jb"
+  <default revision="refs/tags/mips-jb-4.1.1_r1"
            remote="mips"
            sync-j="4" />
 
