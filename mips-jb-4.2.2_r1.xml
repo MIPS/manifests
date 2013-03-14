@@ -323,7 +323,7 @@
   <project path="system/netd" name="system-netd"  groups="pdk" />
   <project path="system/security" name="system-security"  groups="pdk" />
   <project path="system/vold" name="system-vold"  groups="pdk" />
-  <project path="tools/build" name="tools-build" groups="toolsbuild" groups="notdefault,tools" />
+  <project path="tools/build" name="tools-build" groups="notdefault,tools" />
   <project path="tools/motodev" name="tools-motodev" groups="notdefault,motodev" />
 
 </manifest>
