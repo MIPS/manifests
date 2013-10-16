@@ -2,15 +2,12 @@
 <manifest>
   <remote  name="mips"
            fetch="git://github.com/MIPS" />
-  <default revision="refs/tags/mips-jb-4.3_r3.m1"
+  <remote  name="aosp"
+           fetch="https://android-review.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+  <default revision="dev-mips-jb-mr2"
            remote="mips"
            sync-j="4" />
-  <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <remote  name="mipsia"
-           fetch=".."
-           review="https://mipsia.review.mips.com/" />
 
   <project path="build" name="build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -30,7 +27,7 @@
   <project path="device/asus/deb" name="device-asus-deb" groups="device,flo" />
   <project path="device/asus/flo" name="device-asus-flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device-asus-flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="device-asus-grouper" groups="device,grouper" />
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" remote="aosp" revision="jb-mr2-release"/>
   <project path="device/asus/tilapia" name="device-asus-tilapia" groups="device,grouper" />
   <project path="device/common" name="device-common" />
   <project path="device/generic/armv7-a-neon" name="device-generic-armv7-a-neon" groups="pdk" />
