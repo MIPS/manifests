@@ -5,7 +5,7 @@
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="dev-mips-jb-mr2"
+  <default revision="refs/tags/mips-jb-4.3_r3.m1"
            remote="mips"
            sync-j="4" />
 
