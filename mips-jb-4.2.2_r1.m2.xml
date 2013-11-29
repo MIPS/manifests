@@ -323,7 +323,7 @@
   <project path="system/netd" name="system-netd" />
   <project path="system/security" name="system-security" />
   <project path="system/vold" name="system-vold" />
-  <project path="tools/build" name="tools-build" groups="toolsbuild" />
+  <project path="tools/build" name="tools-build" groups="tools" />
   <project path="tools/motodev" name="tools-motodev" />
 
 </manifest>
