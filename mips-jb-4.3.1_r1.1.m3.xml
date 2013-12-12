@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="mips"
-           fetch="git://github.com/MIPS" />
+           fetch="git:github.com/MIPS" />
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/"
            review="https://android-review.googlesource.com/" />
@@ -385,7 +385,7 @@
   <project path="tools/idea" name="tools-idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="tools-motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="tools-swt" groups="notdefault,tools" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="prebuilts-python-darwin-x86-2.7.5" groups="darwin" revision="master" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="prebuilts-python-linux-x86-2.7.5" groups="linux" revision="master" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="prebuilts-python-darwin-x86-2.7.5" groups="darwin" revision="refs/tags/mips-jb-4.3.1_r1.1.m3" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="prebuilts-python-linux-x86-2.7.5" groups="linux" revision="refs/tags/mips-jb-4.3.1_r1.1.m3" />
 
 </manifest>
