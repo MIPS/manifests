@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="mips"
+           fetch="git://github.com/MIPS" />
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android-review.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <remote  name="mipsia"
-           fetch=".."
-           review="https://mipsia.review.mips.com/" />
   <default revision="refs/tags/mips-jb-4.3.1_r1.1.m3"
-           remote="mipsia"
+           remote="mips"
            sync-j="4" />
 
   <project path="build" name="build" groups="pdk" >
