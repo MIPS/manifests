@@ -7,7 +7,7 @@
            fetch=".."
            review="https://mipsia.review.mips.com/" />
 
-  <default revision="refs/tags/mips-kk-4.4_r1.2.m1"
+  <default revision="refs/tags/mips-kk-4.4.2_r1.m1"
            remote="mips"
            sync-j="4" />
 
