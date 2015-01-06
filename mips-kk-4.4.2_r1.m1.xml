@@ -6,6 +6,9 @@
   <remote  name="mipsia"
            fetch=".."
            review="https://mipsia.review.mips.com/" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
 
   <default revision="refs/tags/mips-kk-4.4.2_r1.m1"
            remote="mips"
@@ -223,7 +226,7 @@
   <project path="external/stlport" name="external-stlport" groups="pdk" />
   <project path="external/strace" name="external-strace" />
   <project path="external/stressapptest" name="external-stressapptest" />
-  <project path="external/svox" name="external-svox" />
+  <project path="external/svox" name="platform/external/svox" remote="aosp"/>
   <project path="external/tagsoup" name="external-tagsoup" />
   <project path="external/tcpdump" name="external-tcpdump" />
   <project path="external/timezonepicker-support" name="external-timezonepicker-support" />
