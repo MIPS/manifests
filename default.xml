@@ -226,7 +226,7 @@
   <project path="external/stlport" name="external-stlport" groups="pdk" />
   <project path="external/strace" name="external-strace" />
   <project path="external/stressapptest" name="external-stressapptest" />
-  <project path="external/svox" name="platform/external/svox" remote="aosp"/>
+  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="kitkat-dev"/>
   <project path="external/tagsoup" name="external-tagsoup" />
   <project path="external/tcpdump" name="external-tcpdump" />
   <project path="external/timezonepicker-support" name="external-timezonepicker-support" />
