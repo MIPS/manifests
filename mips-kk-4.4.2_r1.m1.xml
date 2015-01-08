@@ -14,6 +14,9 @@
            remote="mips"
            sync-j="4" />
 
+  <project path="device/imgtec/ci20" name="CI20_android" />
+  <project path="hardware/ingenic/xb4780" name="hardware-ingenic-xb4780" />
+
   <project path="build" name="build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
