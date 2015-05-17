@@ -6,7 +6,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="dev-mips-lollipop-mr1"
+  <default revision="refs/tags/mips-lp-5.1.0_r1.m1"
            remote="mips"
            sync-j="4" />
 
