@@ -451,7 +451,7 @@
   <project path="prebuilts/clang/linux-x86/3.2" name="prebuilts-clang-linux-x86-3.2" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="prebuilts-clang-linux-x86-arm-3.3" groups="arm,linux,pdk-cw-fs" />
   <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" remote="aosp" revision="lollipop-mr1-dev" />
-  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" remote="aosp" revision="lollipop-mr1-dev" />
+  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="prebuilts-clang-linux-x86-mips-3.3" groups="linux,mips,pdk-cw-fs" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="prebuilts-clang-linux-x86-x86-3.3" groups="linux,pdk-cw-fs,x86" />
   <project path="prebuilts/devtools" name="prebuilts-devtools" />
@@ -488,7 +488,7 @@
   <project path="prebuilts/ndk" name="prebuilts-ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="prebuilts-python-darwin-x86-2.7.5" groups="darwin,pdk,pdk-cw-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="prebuilts-python-linux-x86-2.7.5" groups="linux,pdk,pdk-cw-fs" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" revision="lollipop-mr1-dev" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" remote="aosp" revision="lollipop-mr1-dev" />
   <project path="prebuilts/tools" name="prebuilts-tools" groups="pdk,tools" />
   <project path="sdk" name="sdk" groups="pdk-cw-fs" />
