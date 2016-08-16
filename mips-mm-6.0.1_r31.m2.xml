@@ -55,7 +55,7 @@
   <project path="device/huawei/angler" name="device-huawei-angler" groups="device,angler,broadcom_pdk" />
   <project path="device/huawei/angler-kernel" name="device-huawei-angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/hammerhead" name="device-lge-hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" remote="aosp" revision="refs/tags/android-6.0.1_r31" />
   <project path="device/moto/shamu" name="device-moto-shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device-moto-shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device-sample" groups="pdk" />
@@ -80,7 +80,7 @@
   <project path="external/ceres-solver" name="external-ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="external-chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="external-chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" remote="aosp" revision="refs/tags/android-6.0.1_r31" />
   <project path="external/clang" name="external-clang" groups="pdk" />
   <project path="external/cmockery" name="external-cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="external-compiler-rt" groups="pdk" />
@@ -115,7 +115,7 @@
   <project path="external/fsck_msdos" name="external-fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/giflib" name="external-giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="external-glide" groups="pdk-fs" />
-  <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
+  <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" remote="aosp" revision="refs/tags/android-6.0.1_r31" />
   <project path="external/google-fonts/carrois-gothic-sc" name="external-google-fonts-carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/coming-soon" name="external-google-fonts-coming-soon" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/cutive-mono" name="external-google-fonts-cutive-mono" groups="pdk-cw-fs,pdk-fs" />
@@ -245,7 +245,7 @@
   <project path="external/squashfs-tools" name="external-squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="external-srtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="external-strace" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1"/>
+  <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-6.0.1_r31"/>
   <project path="external/tagsoup" name="external-tagsoup" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="external-tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="external-timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
@@ -458,7 +458,7 @@
   <project path="prebuilts/python/darwin-x86/2.7.5" name="prebuilts-python-darwin-x86-2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="prebuilts-python-linux-x86-2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/studio-1.5" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" remote="aosp" revision="refs/tags/android-6.0.1_r31" />
   <project path="prebuilts/tools" name="prebuilts-tools" groups="pdk,tools" />
   <project path="sdk" name="sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="system-bt" groups="pdk" />
