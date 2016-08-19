@@ -457,7 +457,7 @@
   <project path="prebuilts/ndk" name="prebuilts-ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="prebuilts-python-darwin-x86-2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="prebuilts-python-linux-x86-2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
+  <project path="prebuilts/qemu-kernel" name="prebuilts-qemu-kernel" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" remote="aosp" revision="refs/tags/android-6.0.1_r31" />
   <project path="prebuilts/tools" name="prebuilts-tools" groups="pdk,tools" />
   <project path="sdk" name="sdk" groups="pdk-cw-fs,pdk-fs" />
