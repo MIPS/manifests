@@ -600,6 +600,6 @@
   <project path="tools/tradefederation/core" name="tools-tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="tools-tradefederation-contrib" groups="pdk,tradefed" />
 
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+  <repo-hooks in-project="tools-repohooks" enabled-list="pre-upload" />
 
 </manifest>
