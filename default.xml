@@ -597,7 +597,7 @@
   <project path="tools/studio/cloud" name="tools-studio-cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="tools-swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="tools-test-connectivity" groups="pdk" />
-  <project path="tools/tradefederation/core" name="tools-tradefederation" groups="pdk,tradefed" />
+  <project path="tools/tradefederation/core" name="tools-tradefederation-core" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="tools-tradefederation-contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="tools-repohooks" enabled-list="pre-upload" />
