@@ -534,7 +534,7 @@
   <project path="prebuilts/abi-dumps/ndk" name="prebuilts-abi-dumps-ndk" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts-abi-dumps-vndk" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/android-emulator" name="prebuilts-android-emulator" groups="pdk-fs" clone-depth="1" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk" clone-depth="1" revision="oreo-mr1-release" remote="aosp" />
+  <project path="prebuilts/build-tools" name="prebuilts-build-tools" groups="pdk" clone-depth="1" />
   <project path="prebuilts/checkcolor" name="prebuilts-checkcolor" groups="pdk" clone-depth="1" />
   <project path="prebuilts/checkstyle" name="prebuilts-checkstyle" groups="pdk" clone-depth="1" />
   <project path="prebuilts/clang/host/darwin-x86" name="prebuilts-clang-host-darwin-x86" groups="pdk,darwin" clone-depth="1" />
