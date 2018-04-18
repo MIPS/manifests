@@ -23,7 +23,7 @@
   <project groups="pdk" name="bionic" path="bionic" />
   <project groups="pdk" name="bootable-recovery" path="bootable/recovery" />
   <project groups="pdk" name="compatibility-cdd" path="compatibility/cdd" />
-  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="aosp" revision="c46d3754c4f98d4685c55814c787aa9f3a5fcc7a" />
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="aosp" revision="294321662f21d6322249384146c5bdbc0effa795" />
   <project groups="pdk-cw-fs,pdk-fs" name="dalvik" path="dalvik" />
   <project groups="developers" name="developers-build" path="developers/build" />
   <project groups="developers" name="developers-demos" path="developers/demos" />
@@ -123,6 +123,7 @@
   <project groups="pdk" name="external-dng_sdk" path="external/dng_sdk" />
   <project groups="pdk" name="external-dnsmasq" path="external/dnsmasq" />
   <project groups="pdk" name="external-doclava" path="external/doclava" />
+  <project groups="pdk" name="external-dokka" path="external/dokka" />
   <project groups="drm_hwcomposer,pdk-fs" name="external-drm_hwcomposer" path="external/drm_hwcomposer" />
   <project groups="pdk" name="external-droiddriver" path="external/droiddriver" />
   <project groups="pdk" name="external-drrickorang" path="external/drrickorang" />
@@ -475,6 +476,7 @@
   <project groups="qcom,pdk" name="hardware-qcom-power" path="hardware/qcom/power" />
   <project groups="qcom_wlan,pdk" name="hardware-qcom-wlan" path="hardware/qcom/wlan" />
   <project groups="pdk" name="hardware-ril" path="hardware/ril" />
+  <project groups="pdk" name="hardware-st-nfc" path="hardware/st/nfc" />
   <project groups="vts,pdk" name="kernel-configs" path="kernel/configs" />
   <project name="kernel-tests" path="kernel/tests" />
   <project groups="pdk" name="libcore" path="libcore" />
@@ -580,7 +582,7 @@
   <project clone-depth="1" groups="pdk" name="prebuilts-checkstyle" path="prebuilts/checkstyle" />
   <project clone-depth="1" groups="pdk" name="prebuilts-clang-tools" path="prebuilts/clang-tools" />
   <project clone-depth="1" groups="pdk,darwin" name="prebuilts-clang-host-darwin-x86" path="prebuilts/clang/host/darwin-x86" />
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" remote="aosp" revision="e2bae7e80be5e05067900d378ae1b755e06a7475" />
+  <project clone-depth="1" groups="pdk" name="prebuilts-clang-host-linux-x86" path="prebuilts/clang/host/linux-x86" />
   <project clone-depth="1" groups="pdk-fs" name="prebuilts-deqp" path="prebuilts/deqp" />
   <project clone-depth="1" groups="pdk-fs" name="prebuilts-devtools" path="prebuilts/devtools" />
   <project clone-depth="1" groups="pdk,darwin,arm" name="prebuilts-gcc-darwin-x86-aarch64-aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -612,14 +614,14 @@
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="1586476297c751b93bf520427d3f06d500fe6514" />
   <project clone-depth="1" groups="pdk" name="prebuilts-r8" path="prebuilts/r8" />
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="35328e68828137908d79e0d580a140cc0a84e3d1" />
-  <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="c5ec4d905355957c7315be0109cceb569e55def9" />
+  <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="5f2604a9a6245e7b736231623381539c49a37316" />
   <project groups="pdk-cw-fs,pdk-fs" name="sdk" path="sdk" />
   <project groups="pdk" name="system-bt" path="system/bt" />
   <project groups="pdk" name="system-ca-certificates" path="system/ca-certificates" />
   <project groups="pdk" name="system-chre" path="system/chre" />
   <project groups="pdk" name="system-connectivity-wificond" path="system/connectivity/wificond" />
   <project groups="pdk" name="system-connectivity-wifilogd" path="system/connectivity/wifilogd" />
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="aosp" revision="04bf02374ca94292de20d79b9e833e7b3f476f25" />
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="aosp" revision="85d9e673618e867c2d602822459e35a31fb45d76" />
   <project groups="pdk" name="system-extras" path="system/extras" />
   <project groups="pdk" name="system-gatekeeper" path="system/gatekeeper" />
   <project groups="pdk" name="system-hardware-interfaces" path="system/hardware/interfaces" />
@@ -675,9 +677,11 @@
   <project groups="tools" name="tools-metalava" path="tools/metalava" />
   <project groups="notdefault,motodev" name="tools-motodev" path="tools/motodev" />
   <project groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" name="tools-repohooks" path="tools/repohooks" />
+  <project groups="pdk,tools" name="tools-security" path="tools/security" />
   <project groups="notdefault,tools" name="tools-studio-cloud" path="tools/studio/cloud" />
   <project groups="notdefault,tools" name="tools-swt" path="tools/swt" />
   <project groups="pdk" name="tools-test-connectivity" path="tools/test/connectivity" />
+  <project groups="pdk" name="tools-test-graphicsbenchmark" path="tools/test/graphicsbenchmark" />
   <project groups="pdk,tradefed" name="tools-tradefederation" path="tools/tradefederation/core" />
   <project groups="pdk,tradefed" name="tools-tradefederation-contrib" path="tools/tradefederation/contrib" />
 
