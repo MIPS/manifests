@@ -23,7 +23,7 @@
   <project groups="pdk" name="bionic" path="bionic" />
   <project groups="pdk" name="bootable-recovery" path="bootable/recovery" />
   <project groups="pdk" name="compatibility-cdd" path="compatibility/cdd" />
-  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="aosp" revision="294321662f21d6322249384146c5bdbc0effa795" />
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="aosp" revision="b0c25194961ea6b83d2c69763fd4310b3495eca9" />
   <project groups="pdk-cw-fs,pdk-fs" name="dalvik" path="dalvik" />
   <project groups="developers" name="developers-build" path="developers/build" />
   <project groups="developers" name="developers-demos" path="developers/demos" />
@@ -359,7 +359,6 @@
   <project groups="pdk" name="external-tcpdump" path="external/tcpdump" />
   <project groups="pdk" name="external-tensorflow" path="external/tensorflow" />
   <project groups="pdk" name="external-testng" path="external/testng" />
-  <project groups="pdk" name="external-timezonepicker-support" path="external/timezonepicker-support" />
   <project groups="pdk" name="external-tinyalsa" path="external/tinyalsa" />
   <project groups="pdk" name="external-tinycompress" path="external/tinycompress" />
   <project groups="pdk" name="external-tinyxml" path="external/tinyxml" />
@@ -602,7 +601,7 @@
   <project clone-depth="1" groups="linux,pdk,tradefed" name="prebuilts-go-linux-x86" path="prebuilts/go/linux-x86" />
   <project clone-depth="1" groups="pdk-cw-fs,pdk-fs" name="prebuilts-gradle-plugin" path="prebuilts/gradle-plugin" />
   <project clone-depth="1" groups="pdk" name="prebuilts-jdk-jdk8" path="prebuilts/jdk/jdk8" />
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" remote="aosp" revision="6573cf1d8246d83cd1ca41424605824fcc43e5cd" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" remote="aosp" revision="da9ddf9c4de6bd6224639ac79ed735204d153c67" />
   <project clone-depth="1" groups="pdk-cw-fs,pdk-fs" name="prebuilts-libs-libedit" path="prebuilts/libs/libedit" />
   <project clone-depth="1" groups="pdk-cw-fs,pdk-fs" name="prebuilts-maven_repo-android" path="prebuilts/maven_repo/android" />
   <project clone-depth="1" groups="pdk-cw-fs,pdk-fs" name="prebuilts-maven_repo-bumptech" path="prebuilts/maven_repo/bumptech" />
@@ -613,15 +612,15 @@
   <project clone-depth="1" groups="linux,pdk,pdk-cw-fs,pdk-fs" name="prebuilts-python-linux-x86-2.7.5" path="prebuilts/python/linux-x86/2.7.5" />
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="1586476297c751b93bf520427d3f06d500fe6514" />
   <project clone-depth="1" groups="pdk" name="prebuilts-r8" path="prebuilts/r8" />
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="35328e68828137908d79e0d580a140cc0a84e3d1" />
-  <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="5f2604a9a6245e7b736231623381539c49a37316" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="363f835c033678d7b450b01a3266b2c77419d9dd" />
+  <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="606ad49aa8d62e1ed64a86c1333bef7aac836701" />
   <project groups="pdk-cw-fs,pdk-fs" name="sdk" path="sdk" />
   <project groups="pdk" name="system-bt" path="system/bt" />
   <project groups="pdk" name="system-ca-certificates" path="system/ca-certificates" />
   <project groups="pdk" name="system-chre" path="system/chre" />
   <project groups="pdk" name="system-connectivity-wificond" path="system/connectivity/wificond" />
   <project groups="pdk" name="system-connectivity-wifilogd" path="system/connectivity/wifilogd" />
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="aosp" revision="85d9e673618e867c2d602822459e35a31fb45d76" />
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="aosp" revision="01ce44b734d8eeb6f29d6038857bcefe4854b7cd" />
   <project groups="pdk" name="system-extras" path="system/extras" />
   <project groups="pdk" name="system-gatekeeper" path="system/gatekeeper" />
   <project groups="pdk" name="system-hardware-interfaces" path="system/hardware/interfaces" />
