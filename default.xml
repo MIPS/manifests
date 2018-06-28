@@ -23,7 +23,7 @@
   <project groups="pdk" name="bionic" path="bionic" />
   <project groups="pdk" name="bootable-recovery" path="bootable/recovery" />
   <project groups="pdk" name="compatibility-cdd" path="compatibility/cdd" />
-  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="aosp" revision="b0c25194961ea6b83d2c69763fd4310b3495eca9" />
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="aosp" revision="320fce0958520059e1beae1f26c42c8b0f9b9065" />
   <project groups="pdk-cw-fs,pdk-fs" name="dalvik" path="dalvik" />
   <project groups="developers" name="developers-build" path="developers/build" />
   <project groups="developers" name="developers-demos" path="developers/demos" />
@@ -106,6 +106,7 @@
   <project groups="pdk" name="external-chromium-trace" path="external/chromium-trace" />
   <project clone-depth="1" groups="pdk" name="external-chromium-webview" path="external/chromium-webview" />
   <project groups="pdk" name="external-clang" path="external/clang" />
+  <project groups="pdk" name="external-cldr" path="external/cldr" />
   <project groups="pdk" name="external-cmockery" path="external/cmockery" />
   <project groups="pdk" name="external-cn-cbor" path="external/cn-cbor" />
   <project groups="pdk" name="external-compiler-rt" path="external/compiler-rt" />
@@ -217,7 +218,6 @@
   <project groups="pdk" name="external-libjpeg-turbo" path="external/libjpeg-turbo" />
   <project groups="pdk" name="external-libldac" path="external/libldac" />
   <project groups="pdk" name="external-libmicrohttpd" path="external/libmicrohttpd" />
-  <project groups="pdk" name="external-libmojo" path="external/libmojo" />
   <project groups="pdk" name="external-libmpeg2" path="external/libmpeg2" />
   <project groups="pdk" name="external-libmtp" path="external/libmtp" />
   <project groups="pdk" name="external-libnetfilter_conntrack" path="external/libnetfilter_conntrack" />
@@ -263,7 +263,6 @@
   <project groups="pdk" name="external-nanohttpd" path="external/nanohttpd" />
   <project groups="pdk" name="external-nanopb-c" path="external/nanopb-c" />
   <project groups="pdk" name="external-naver-fonts" path="external/naver-fonts" />
-  <project groups="pdk" name="external-netcat" path="external/netcat" />
   <project groups="pdk" name="external-neven" path="external/neven" />
   <project groups="pdk" name="external-nfacct" path="external/nfacct" />
   <project groups="pdk" name="external-nist-pkits" path="external/nist-pkits" />
@@ -612,7 +611,7 @@
   <project clone-depth="1" groups="linux,pdk,pdk-cw-fs,pdk-fs" name="prebuilts-python-linux-x86-2.7.5" path="prebuilts/python/linux-x86/2.7.5" />
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="1586476297c751b93bf520427d3f06d500fe6514" />
   <project clone-depth="1" groups="pdk" name="prebuilts-r8" path="prebuilts/r8" />
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="363f835c033678d7b450b01a3266b2c77419d9dd" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="a0538cf3e3290457806cb93e0a6f3aebe67523bf" />
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="606ad49aa8d62e1ed64a86c1333bef7aac836701" />
   <project groups="pdk-cw-fs,pdk-fs" name="sdk" path="sdk" />
   <project groups="pdk" name="system-bt" path="system/bt" />
@@ -620,7 +619,7 @@
   <project groups="pdk" name="system-chre" path="system/chre" />
   <project groups="pdk" name="system-connectivity-wificond" path="system/connectivity/wificond" />
   <project groups="pdk" name="system-connectivity-wifilogd" path="system/connectivity/wifilogd" />
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="aosp" revision="01ce44b734d8eeb6f29d6038857bcefe4854b7cd" />
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="aosp" revision="751f2fa535f96442ad55e130b78a312c183a1317" />
   <project groups="pdk" name="system-extras" path="system/extras" />
   <project groups="pdk" name="system-gatekeeper" path="system/gatekeeper" />
   <project groups="pdk" name="system-hardware-interfaces" path="system/hardware/interfaces" />
@@ -640,6 +639,7 @@
   <project groups="pdk" name="system-sepolicy" path="system/sepolicy" />
   <project groups="pdk" name="system-timezone" path="system/timezone" />
   <project groups="pdk-cw-fs,pdk-fs" name="system-tools-aidl" path="system/tools/aidl" />
+  <project groups="pdk" name="system-tools-bpt" path="system/tools/bpt" />
   <project groups="pdk" name="system-tools-hidl" path="system/tools/hidl" />
   <project name="system-tpm" path="system/tpm" />
   <project groups="pdk" name="system-update_engine" path="system/update_engine" />
